@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bus Routes</string>
+
+    <string-array name="Bus_Number_ShishuMela">
+        <item>Shishu Mela</item>
+        <item>Shishu Mela</item>
+        <item>Shishu Mela</item>
+        <item>Shishu Mela</item>
+        <item>Shishu Mela</item>
+    </string-array>
+    <string-array name="Bus_Number_Farmgate">
+        <item>Farmgate</item>
+        <item>Farmgate</item>
+        <item>Farmgate</item>
+        <item>Farmgate</item>
+        <item>Farmgate</item>
+    </string-array>
+    <string-array name="Bus_Number_Mohakhali">
+        <item>Mohakhali</item>
+        <item>Mohakhali</item>
+        <item>Mohakhali</item>
+    </string-array>
+
+    <string name="radio_planner">Set Destination</string>
+    <string name="radio_bus">Stop by Bus Name</string>
+    <string name="radio_stop">Bus by Stop Name</string>
+    <string name="radio_details">Bus Details</string>
+
+    <string-array name="Destination_ShishuMela">
+        <item>Azimpur to Mirpur-12</item>
+        <item>Azimpur to Mirpur-12</item>
+        <item>Azimpur to Mirpur-1</item>
+        <item>Azimpur to Rupnagar</item>
+        <item>Azimpur to Mirpur-14</item>
+    </string-array>
+    <string-array name="Destination_Farmgate">
+        <item>Motijheel to Mirpur-12</item>
+        <item>Motijheel to Rupnagar</item>
+        <item>Jatrabari to Mirpur-12</item>
+        <item>Gulistan to Mirpur-12</item>
+        <item>Sadarghat to Mirpur-12</item>
+    </string-array>
+    <string-array name="Destination_Mohakhali">
+        <item>Azimpur to Abdullahpur</item>
+        <item>Azimpur to Tongi</item>
+        <item>Azimpur to Gazipur</item>
+    </string-array>
+
+    <array name="profile_pics_ShishuMela">
+        <item>@drawable/m1</item>
+        <item>@drawable/m2</item>
+        <item>@drawable/m3</item>
+        <item>@drawable/m4</item>
+        <item>@drawable/m5</item>
+    </array>
+
+    <array name="bus1_ShishuMela">
+        <item>Bikolpo</item>
+        <item>Bikolpo</item>
+        <item>MetroLink</item>
+        <item>Bihongo</item>
+        <item>Nishorgo</item>
+
+    </array>
+    <array name="bus2_ShishuMela">
+        <item>Safety</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="bus3_ShishuMela">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+    <array name="bus1_Farmgate">
+        <item>BRTC</item>
+        <item>BRTC</item>
+        <item>Best</item>
+        <item>ETC</item>
+        <item>Mirpur United</item>
+
+    </array>
+    <array name="bus2_Farmgate">
+        <item>ENA</item>
+        <item></item>
+        <item>Choice</item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="bus3_Farmgate">
+        <item></item>
+        <item></item>
+        <item>Shikhor</item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="bus1_Mohakhali">
+        <item>BRTC</item>
+        <item>Anik</item>
+        <item>VIP</item>
+    </array>
+    <array name="bus2_Mohakhali">
+        <item>Suchona</item>
+        <item></item>
+        <item></item>
+
+    </array>
+    <array name="bus3_Mohakhali">
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+    <array name="profile_pics_Mohakhali">
+        <item>@drawable/m6</item>
+        <item>@drawable/m7</item>
+        <item>@drawable/m8</item>
+    </array>
+
+    <array name="profile_pics_Farmgate">
+        <item>@drawable/m11</item>
+        <item>@drawable/m12</item>
+        <item>@drawable/m13</item>
+        <item>@drawable/m14</item>
+        <item>@drawable/m15</item>
+    </array>
+
+</resources>

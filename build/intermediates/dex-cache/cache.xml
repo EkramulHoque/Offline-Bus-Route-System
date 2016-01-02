@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Work\11th semester\Android\ImageMap4\app\libs\mapviewlib.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac56ab5572a40d5358c99c0f89271f4db1319516">
+        <dex dex="D:\Work\11th semester\Android\ImageMap4\app\build\intermediates\pre-dexed\debug\mapviewlib-0b0906a134cb62074feeb42df1c1efcffc2c3b60.jar" />
+    </item>
+    <item
+        jar="D:\Work\11th semester\Android\ImageMap4\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="D:\Work\11th semester\Android\ImageMap4\app\build\intermediates\pre-dexed\debug\android-support-v4-ec17b3878a50fb6051f42a153bece44f9ee53dd9.jar" />
+    </item>
+
+</items>

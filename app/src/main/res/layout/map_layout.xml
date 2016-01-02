@@ -1,0 +1,64 @@
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fefff6f8"
+    >
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#6fffbe15"/>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#6fb0b1a6"
+        tools:context=".MainActivity"
+        android:id="@+id/relative">
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:hint="To"
+            android:textColor="#ff000000"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:hint="From"
+            android:textColor="#ff000000"
+            android:layout_above="@+id/editText2"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:onClick="Drawer"
+            android:id="@+id/button2"
+            android:hint="Search"
+            android:layout_above="@+id/editText2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:singleLine="false" />
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>
